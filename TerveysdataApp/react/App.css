@@ -1,0 +1,439 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  background-color: #023E7D;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.adduserplus{
+  margin-left: 38px;
+}
+
+.adduserblock{
+  margin-left: 8px;
+}
+
+.canvas {
+  margin: 30px;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+header {
+  background: #002855;
+  padding: 2rem;
+  grid-column: 1 / 4;
+  color: rgb(0, 109, 233);
+}
+
+.heardersticky{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.headertext{
+  cursor: pointer;
+  color:#ffffff;
+  margin-right: 20px;
+}
+
+.footertext{
+  float: right;
+  cursor: pointer;
+  color:#ffffff;
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+.left-sidebar {
+  background: #00468c;
+  grid-column: 1 / 2;
+  color: aliceblue;
+}
+
+.personname {
+  padding-left: 10px;
+  padding-top: 25px;
+}
+
+.personnameactive{
+  padding-left: 10px;
+  text-shadow: 0px 3px #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 25px;
+  color:#ffffff;
+}
+
+.deleteusertext{
+  margin: 5px;
+}
+
+.ul:hover {
+  color: #00c503;
+}
+
+main {
+  background: #085cb1;
+  grid-column: 2 / 3;
+  color: aliceblue;
+}
+
+
+
+footer {
+  background: #023E7D;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+  color: aliceblue;
+  min-height: 12vh;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.mainblocks{
+  background-image: url("/images/bg2.jpg");
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  color: #333333;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainblocks2{
+  background-image: url("/images/bg3.jpg");
+
+}
+
+/* <a href="https://www.vecteezy.com/free-vector/grey-background">Grey Background Vectors by Vecteezy</a> */
+
+.weight {
+  width: 130px;
+  margin-top: 60px;
+  margin-bottom:52px;
+  border-radius: 5px;
+  background-color: #0f1344;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.waist {
+  width: 130px;
+  margin-top: 60px;
+  margin-bottom:52px;
+  border-radius: 5px;
+  background-color:#0f1344;
+  padding: 10px;
+  cursor: pointer;
+  color: #00cd03;
+}
+
+.heartbeats {
+  width: 130px;
+  margin-top: 60px;
+  margin-bottom:52px;
+  border-radius: 5px;
+  background-color:#0f1344;
+  padding: 10px;
+  cursor: pointer;
+}
+.measuredateblack {
+  color: rgb(255, 255, 255);
+}
+
+.measuredate {
+  color: rgb(255, 255, 255);
+}
+
+.filling{
+  margin-bottom: 90px;
+}
+
+.addvalues {
+  margin-top: 21px;
+  margin-left: 60px;
+  margin-bottom:52px;
+}
+.addvalue {
+  color: #e4fdf8;
+  margin-top: 10px;
+}
+
+.linktobottom{
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+  margin-left: 10px;
+  cursor: pointer;
+  float: left;
+  /*
+  background-image: url("/public/images/question.jpg");
+  height: 25px;
+  width: 25px; */
+}
+
+.left-sidebar {
+  padding-top: 500px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.personslist{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.adduser {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.deleteuserblock{
+  padding-top:30px
+}
+
+.deleteuser{
+  padding: 5px;
+  display: inline-block;
+  
+}
+
+.calculation{
+  height: 100%;
+  width: 40%;
+  margin-top: 70px;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 50%;
+  width: 20%;
+  margin-top: 10%;
+  margin-left:50px;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.welcomeimage{
+  background-image: url("/images/welcome.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.center{
+  /* padding: 100px 0; */
+  text-align: center;
+}
+
+
+.welcome{
+  padding-bottom: 20px;
+  margin-top: 100PX;
+}
+
+a {
+  color: #c4e2e8;
+}
+
+a:hover {
+  color: #c4e2e8;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  width: 420px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  background-color: #194b7d;
+}
+
+.flex-container > div {
+  background-color: #194b7d;
+  margin: 10px;
+  padding: 20px;
+  padding-right: 40px;
+  font-size: 20px;
+
+}
+
+
+  .teppotestaaja{
+    margin-top: 90px;
+  }
+
+
+.card1,
+.card2 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+
+
+.top{
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+  margin-top: 45%;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(15 122 255);
+  text-align: center;
+  color: white;
+  text-align: center;
+  margin-left: 47.5%;
+  
+
+}
+
+.toptext{
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+
+
+.cloud {
+  
+  /* min-width: 100vw; */
+  min-height: 700px;
+  width: 100vw;
+  /* height: 100vh; */
+  display: grid;
+  grid-template-areas: 'clouds2' 'ylos';
+  background-image: url("/images/cloudsFinal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;  
+}
+
+.docker {
+  height: 40px;
+  width: 47px;
+  margin-top: 27%;
+  margin-left: 49%;
+  background-image: url("/images/docker.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.cloudscontainer {
+  top:0;
+  left:0;
+  /* min-width: 100vw;
+  min-height: 100vh; */
+  /* min-width: 100%; */
+  /* max-width: 100%;
+  max-height: 100%; */
+  width: 100vw;
+  height: 100vh;
+  /* min-height: 100vh; */
+  
+  background-color: #023E7D;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+/* .clouds{
+  position: relative;
+  background-image: url("/images/clouds.jpg");
+  background-attachment: fixed;
+  color: #333333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top:0;
+  left:0;
+  height: 120vh;
+  justify-content: center;
+} */
+
+
+/* .cloud1 {
+  min-width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  background-image: url("/images/cloudsFinal.jpg");
+  background-size: cover;
+  
+}
+
+.cloud2 {
+  height: 40px;
+  width: 47px;
+  margin-top: 27%;
+  margin-left: 49%;
+  background-image: url("/images/docker.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.cloudscontainer {
+  top:0;
+  left:0;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-color: #023E7D;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
