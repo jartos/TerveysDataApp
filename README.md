@@ -6,6 +6,8 @@ Key features:
   <li>User can add and measurements to the profile and delete them</li>
   <li>Chart for the measure presentation</li>
 </ul>
+<br>
+ <img src="https://hjt-remontit-pics.s3.eu-central-1.amazonaws.com/terveysdatakuvake.png" width="55%">
 <br /><br />
 <br /><br />
 Database - MySQL          &#10004; <br /><br />
