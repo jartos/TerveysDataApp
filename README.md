@@ -10,12 +10,12 @@ Key features:
  <img src="https://hjt-remontit-pics.s3.eu-central-1.amazonaws.com/terveysdatakuvake.png" width="55%">
 <br /><br />
 <br /><br />
-Database - MySQL          &#10004; <br /><br />
-Backend - Node.js         &#10004; <br /><br />
-Frontend - React, Redux   &#10004; <br /><br /><br />
-Database deployment - AWS RDS       &#10004; <br /><br />
-Backend deployment  - AWS EC2       &#10004; <br /><br />
-Frontend deployment - AWS S3        &#10004; <br /><br />
+Database - MySQL           <br /><br />
+Backend - Node.js          <br /><br />
+Frontend - React, Redux    <br /><br /><br />
+Database deployment - AWS RDS        <br /><br />
+Backend deployment  - AWS EC2        <br /><br />
+Frontend deployment - AWS S3         <br /><br />
 <br />
 
 
